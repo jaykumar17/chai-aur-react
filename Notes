@@ -44,4 +44,6 @@ useMemo() return memorized value. if you function in that function has complex l
 memo(): it is use for unnecessary re rendering of component when its props do not change value. so that time we can use
 
 <a></a> Is it use A tag in react -> No becuase a tag is refresh page so thats why no need to use a tag you can use Link tag for react dom
+
+context - In context file we should create .js file not jsx
      
