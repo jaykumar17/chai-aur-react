@@ -1,0 +1,47 @@
+React js
+
+ - if you are using react in browser so we can install react-dom package.
+ - If you are using react in mobile so we can install react native package.
+
+ - We can install react app two way or other way
+    - This is first way react offical doc:- npx create-react-app projectname
+    - This is second way using Vite website:- npm create vite@latest -> choose react -> choose Javascript or typescript
+
+ - React official website install - So we can code write any .js file or .jsx file
+                                  - But function name should be capital like eg. Chai not chai
+                                  - In this project, the react-scripts package is mandatory. It automatically calls the index.js file located in the src folder. The index.js file renders the app into the element with the ID ‘root’, which is defined in the index.html file inside the public folder. There is no need to call it directly, as react-scripts handles this automatically.
+                                  - In that way unnecessary package install which is no need to you can check in package.json file.
+
+ - React using Vite build tool  - So we can code write only .jsx file
+                                - Function name should be capital and file name also should be capital like eg Chai not chai
+                                - In that way only necessary pacakge install like React and React-dom package
+                                - In Vite, there is no need for the react-scripts package. The application is directly loaded through the index.html file, which is outside the src folder. In this file, the main.js file is included using a <script> tag. You can rename the main.js file as per your convenience.
+
+ - Fragement - if you want mulitple data return or multiple component return so we can use freagement "<> </>" this is called       fragement. eg -  return (
+                        <>
+                        <h1>Hello React using Basic</h1>
+                        <Chai></Chai>
+                        </>
+                        
+                    );result
+                    
+                    
+Virtual Dom- VD is lightweight copy of the real dom. it is update only the change parts of the UI instead of updating whole page.thats why its faster
+
+Real DOM- Document object model - it is actul structure of web page in the browser when any changes happen it updates whole DOM, thats why its slow as compare virtual dom
+
+React fiber- React fiber is internally reconcilation engine. it makes ui updates faster by breaking another work into small task. They decide which task need to priortiy and which task to pause all thing decide to react fiber. and react fiber introduct in after react js 16
+
+Virtual DOM and Fiber- Virtual dom decide what to update and react fiber decide how and when to update it
+
+What is JSX- JSX is javascript xml. it is looks like html it is easy to wirte and read code. 
+Why not javascript code-  Because javascript code is complex and less readable as compare to jsx.
+
+UseCallBack(): return memorized function. it means suppose if you function that function call in your child component but parent component call any state or any function call that tiem unnecessary call that method so that case avoid for useCallBack() hooks
+
+useMemo() return memorized value. if you function in that function has complex logic but suppose we changed some other functionality so unneccessayy that function call so that case for avoiding so we need to use useMemo hooks 
+
+memo(): it is use for unnecessary re rendering of component when its props do not change value. so that time we can use
+
+<a></a> Is it use A tag in react -> No becuase a tag is refresh page so thats why no need to use a tag you can use Link tag for react dom
+     
